@@ -1,0 +1,181 @@
+:root {
+    --default_blue: #353196;
+    --default_font: 'Poppins', sans-serif;
+}
+
+.section_padding {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.fixed_nav{
+    position: fixed;
+    background: var(--dark_bg);
+    z-index: 9999;
+    width: 100%;
+    box-shadow: 6px 2px 12px 7px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+.blue_text {
+    color: var(--default_blue);
+}
+
+body {
+    font-family: var(--default_font);
+}
+
+.v_align {
+    text-align: center;
+}
+
+.default_btn {
+    border: none;
+    background: var(--default_blue);
+    color: #fff;
+    padding: 0.6em;
+    border-radius: 30px;
+    outline: none;
+}
+
+nav {
+    padding: 1.5em;
+}
+
+.logo {
+    float: left;
+}
+
+.nav_link_holder {
+    position: relative;
+    left: 72%;
+    display: flex;
+    width: fit-content;
+}
+
+.hero{
+    background: url("../assets/images/hero_img.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 80vh;
+}
+
+.hero_text_holder{
+    display: flex;
+    align-items: center;
+    min-height: 60vh;
+    width: 50%;
+    color: #f5f5f5;
+}
+
+.hero_form{
+    display: flex;
+}
+
+.hero_form form{
+    display: flex;
+}
+
+.hero_form input{
+    border: none;
+    border-radius: 35px;
+    padding: 0 10px;
+    outline: none;
+    width: 60%;
+}
+
+.hero_form button{
+    margin-left: -10%;
+}
+
+.login_img_holder{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.signup_img_holder {
+    padding: 2em;
+}
+
+.login_form_holder {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login_form_content {
+    padding: 1em;
+}
+
+.input_holder {
+    display: flex;
+}
+
+.input_holder input {
+    width: 100%;
+    padding: 0.6em 1em;
+    background: #f5f5f5;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    box-shadow: inset 18px 18px 30px 0 #D1D9E6;
+}
+
+.forgot {
+    float: right;
+    margin-top: 20px;
+}
+
+.remember {
+    float: left;
+    margin-top: 20px;
+    color: var(--default_blue);
+}
+
+@media screen and (max-width: 996px) {
+    .section_padding {
+        padding-right: 1.5em;
+        padding-left: 1.5em;
+    }
+
+    nav{
+        padding: 1.2em;
+    }
+
+    .nav_link_holder {
+        display: none;
+    }
+
+    .logo{
+        float: none;
+    }
+
+    .hero_text_holder{
+        width: 100%;
+    }
+
+    .login_img_holder {
+        min-height: 30vh;
+        margin-top: 20px;
+    }
+
+    .login_form_holder {
+        min-height: 50vh;
+        margin-top: 20px;
+    }
+
+    .login_form_content {
+        padding: 0.3em;
+    }
+
+    .signup_img_holder {
+        padding: 0;
+    }
+
+}
