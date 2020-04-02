@@ -541,6 +541,10 @@ footer{
         padding: 0;
     }
 
+    .vid_holder iframe{
+        width: 100%;
+    }
+
     .contact_form_holder,
     .accepted{
         margin-top: 25px;
