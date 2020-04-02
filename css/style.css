@@ -133,6 +133,37 @@ nav {
 	width:31px;
 }
 
+/*mobile navigation**/
+.mobile_nav{
+    width: 100%;
+    position: fixed;
+    height: 0;
+    top: 3.8em;
+    background-color: var(--bg_greay);
+    overflow-x: hidden;
+    z-index: 99999;
+    transition: all 0.4s ease-in;
+    
+}
+
+
+.mobile_nav_content a{
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: var(--default_blue);
+}
+
+.nav_inner ul{
+    list-style: none;
+    padding: 0 1em;
+}
+
+.slide{
+    height: 30vh;
+}
+
+
 /******hero*****/
 
 .hero {
@@ -149,6 +180,11 @@ nav {
     min-height: 60vh;
     width: 50%;
     color: #f5f5f5;
+}
+
+.hero_text h1{
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .hero_form {
@@ -228,6 +264,38 @@ nav {
     min-width: 100%;
 }
 
+/***how**/
+.how{
+    background: var(--default_blue);
+    min-height: 80vh;
+}
+
+.vid_holder{
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.how_text_holder{
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.how_text{
+    display: flex;
+}
+
+.how_text h4,
+.how_text p{
+    color: lightgray;
+}
+
+.how_text i{
+    color: #e69317;
+    font-size: 25px;
+}
+
 /***purchase a contract***/
 .conract_card {
     background: #e69317;
@@ -239,6 +307,12 @@ nav {
 
 .contract_info {
     padding: 0 1.5em;
+}
+
+.contact_text_holder{
+    display: flex;
+    align-items: center;
+    min-height: 50vh;
 }
 
 /**referral plan*/
@@ -306,8 +380,54 @@ nav {
 /**contract plans***/
 .contract_card {
     border-radius: 10px;
-    background: #fff;
+    background: #e69317;
     box-shadow: 0 2px 15.64px 0.36px rgba(43, 40, 122, 0.25), 0 3px 12px 0.75px rgba(43, 40, 122, 0.14);
+    width: 80%;
+}
+
+.contract_card_inner{
+    padding: 1.5em;
+    color: #f5f5f5;
+}
+
+.rec{
+    background-color: green;
+    color: #f5f5f5;
+    padding: 0.5em;
+    border-radius: 10px;
+    font-size: 11px;
+}
+
+
+/***contact section***/
+.contact_info{
+    font-weight: bold;
+}
+
+.contact_text_holder{
+    padding: 0 0.5em;
+}
+
+/***footer***/
+footer{
+    background-color: var(--bg_greay);
+}
+
+.social_icons a{
+    margin: 0 0.5em;
+}
+
+.social_icons i{
+    font-size: 20px;
+
+}
+
+.accepted_img_holder{
+    width: 200px;
+}
+
+.copy{
+    color: gray;
 }
 
 /***login***/
@@ -336,7 +456,8 @@ nav {
     display: flex;
 }
 
-.input_holder input {
+.input_holder input,
+.input_holder textarea {
     width: 100%;
     padding: 0.6em 1em;
     background: #f5f5f5;
@@ -371,7 +492,6 @@ nav {
         display: block; 
     }
 
-
     nav {
         padding: 1.2em;
     }
@@ -386,6 +506,10 @@ nav {
 
     .hero_text_holder {
         width: 100%;
+    }
+
+    .hero_text h1{
+        font-weight: 30px;
     }
 
     .mt_alt {
@@ -408,6 +532,20 @@ nav {
     .ref_img_holder {
         min-height: 40vh;
     }
+
+    .contract_card{
+        width: 100%;
+    }
+
+    .contact_text_holder{
+        padding: 0;
+    }
+
+    .contact_form_holder,
+    .accepted{
+        margin-top: 25px;
+    }
+    
 
     .login_img_holder {
         min-height: 30vh;

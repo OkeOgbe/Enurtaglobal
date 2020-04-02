@@ -1,304 +1,606 @@
      <!DOCTYPE html>
-<html lang="en">
+     <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/libs/bootstrap-4.3.1-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/libs/themify-icons-font/themify-icons/themify-icons.css">
-    <link rel="stylesheet" href="assets/libs/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Enurtaglobal - Home</title>
-</head>
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="assets/libs/bootstrap-4.3.1-dist/css/bootstrap.css">
+         <link rel="stylesheet"
+             href="assets/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+         <link rel="stylesheet"
+             href="assets/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+         <link rel="stylesheet" href="assets/libs/themify-icons-font/themify-icons/themify-icons.css">
+         <link rel="stylesheet" href="assets/libs/fontawesome/css/all.min.css">
+         <link rel="stylesheet" href="css/style.css">
+         <title>Enurtaglobal - Home</title>
+     </head>
 
-<body>
-    <nav class="section_padding">
-        <div class="logo">
-            <a href="#" class="blue_text">Enurtaglobal.com</a>
-        </div>
-        <div class="nav_link_holder">
-            <div class="nav_link mr-4">
-                <a href="#">Sign In</a>
-            </div>
-            <div class="nav_link">
-                <a href="#">Sign up</a>
-            </div>
-        </div>
+     <body>
+         <nav class="section_padding">
+             <div class="logo">
+                 <a href="#" class="blue_text">Enurtaglobal.com</a>
+             </div>
+             <div class="nav_link_holder">
+                 <div class="nav_link mr-4">
+                     <a href="login.html">Sign In</a>
+                 </div>
+                 <div class="nav_link">
+                     <a href="signup.html">Sign up</a>
+                 </div>
+             </div>
 
-        <div class="toggle-icon">
-            <span class="bar"></span>
-            <span class="bar"></span>	
-            <span class="bar"></span>
-        </div>	
+             <div class="toggle-icon" id="open_btn">
+                 <span class="bar"></span>
+                 <span class="bar"></span>
+                 <span class="bar"></span>
+             </div>
+
+            
+         </nav>
+
+         <section class="hero">
+            <div class="mobile_nav" id="mobileNav">
+                <div class="mobile_nav_content w-100">
     
-    </nav>
-
-    <section class="hero">
-        <div class="section_padding">
-            <div class="hero_text_holder">
-                <div class="hero_text">
-                    <h1 class="blue_text">Simple, Seamless & Secure.</h1>
-                    <p>Our revolutionary investment strategy is designed to create your own profitable ecosystem in
-                        record
-                        time, secure digital assets easily and access to funding anywhere you are at anytime.
-                    </p>
-
-                    <div class="hero_form mt-3">
-                        <form action="" method="post" class="w-100">
-                            <input type="email" placeholder="Your email" class="" required>
-                            <button type="submit" class="default_btn">Get started <i
-                                    class="fas fa-angle-right ml-2 pr-2"></i> </button>
-                        </form>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="why section_padding mb-3">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="why_card">
-                    <div class="why_card_content">
-                        <div class="card_icon_holder mb-3">
-                            <i class="ti-lock blue_text"></i>
-                        </div>
-                        <div class="section_head">
-                            <h4>Strong Security</h4>
-                            <hr>
-                        </div>
-                        <p class="v_align">Protection against DDoS attacks, full data encryption, compliant with PCI DSS
-                            standards.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="why_card mt_alt">
-                    <div class="why_card_content">
-                        <div class="card_icon_holder mb-3">
-                            <i class="ti-stats-up blue_text"></i>
-                        </div>
-                        <div class="section_head">
-                            <h4>Detailed Statistics</h4>
-                            <hr>
-                        </div>
-                        <p class="v_align">View all investment related information and data in real-time, at any point
-                            from any location.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="why_card mt_alt">
-                    <div class="why_card_content">
-                        <div class="card_icon_holder mb-3">
-                            <i class="fas fa-sync-alt blue_text"></i>
-                        </div>
-                        <div class="section_head">
-                            <h4>Instant Connect</h4>
-                            <hr>
-                        </div>
-                        <p class="v_align">The investment starts immediately after your payment is confirmed.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section_padding mt-5 mb-5 pt-3">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="number_holder v_align">
-                    <h2 class="blue_text">$1M+</h2>
-                    <p>Invested</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="number_holder v_align">
-                    <h2 class="blue_text">52</h2>
-                    <p>Countries</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="number_holder v_align">
-                    <h2 class="blue_text">4K+</h2>
-                    <p>Members</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section_padding mt-5">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="currency_text_holder">
-                    <div class="">
-                        <h1>Over 10+ </br> Supported Coins</h1>
-                        <p class="pt-2">Our advanced investment software, managed by a highly experienced team of
-                            experts ensure
-                            investment with us is always profitable. Our configuration allows us to swap between
-                            cryptocurrencies that are currently profitable.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="currency_img_holder">
-                    <img src="assets/images/currency.png" class="w-100" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section_padding mt-5 pt-5 pb-5">
-        <div class="bg_circle"></div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="contract_card_holder">
-                    <div class="conract_card">
-                        <p class="v_align">Minimum Contract Amount</p>
-                        <h1 class="mt-2">$1000 USD</h1>
-                        <p>Starting from</p>
-                        <h1>1.3% per day</h1>
-                        <p>Expiry: 4 Month Contract Duration</p>
-
-                        <div class="btn_holder mt-4">
-                            <a href="#" class="default_btn">Start Investment now <i
-                                    class="fas fa-angle-right ml-2 pr-2"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-8">
-                <div class="contract_info_holder">
-                    <div class="contract_info">
-                        <h1>Purchase a</br>
-                            Contract
-                        </h1>
-                        <p class="mt-2">Enurtaglobal.ng is one of the leading Cryptocurrrency investment platforms,
-                            offering good ROI for its members. Our community is growing by the day, so join now and
-                            start earning.
-                        </p>
-                        <p class="mt-2">We have been in business for close to two years now and processed more than
-                            3,000 transactions. Our member reports continue to speak for us, join us today and start
-                            making profits today.
-                        </p>
-
-                        <div class="btn_holder mt-4">
-                            <a href="#" class="default_btn_alt">Get started</a>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="referral_plan mt-5 pt-5 pb-2">
-        <div class="section_padding">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="ref_text_holder">
-                        <h2>Attractive
-                            Referral Plan
-                        </h2>
-                        <p class="mt-2">
-                            Our referral program is developed to provide each member with the maximum possible passive income. The amount of income depends only on your activity.<br>
-                            You earn not just when you invest with us. Invite a friend, who will invest with us and you get a one-time return on their investment. Help your friend to help you.
-                        </p>
+                    <div class="nav_inner w-100">
                         <ul>
-                            <li>5% on every referral.</li>
-                            <li>Without Conditions.</li>
-                            <li>Instant Payout.</li>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="signup.html">Signup</a>
+                            </li>
+                            <li>
+                                <a href="login.html">Login</a>
+                            </li>
                         </ul>
-
-                        <div class="btn_holder mt-4">
-                            <a href="signup.html" class="default_btn_alt">Get my Referral link</a>
-                        </div>
                     </div>
+    
                 </div>
-                <div class="col-md-6">
-                    <div class="ref_img_holder">
-                        <img src="assets/images/ref_plan.png" class="w-100" alt="">
-                    </div>
-                </div>
-                    
             </div>
-        </div>
-    </section>
+             <div class="section_padding">
+                 <div class="hero_text_holder">
+                     <div class="hero_text">
+                         <h1 class="blue_text">Simple, Seamless & Secure.</h1>
+                         <p>Our revolutionary investment strategy is designed to create your own profitable ecosystem in
+                             record
+                             time, secure digital assets easily and access to funding anywhere you are at anytime.
+                         </p>
 
-    <section class="pt-2 pb-4 faq">
-        <div class="bg_circle_alt"></div>
-        <div class="section_padding">
-             <h2>FAQ</h2>
-            <p>Some of the questions you would like to ask</p>
-            <div class="faq_holder mt-3">
-                <div class="faq_content">
-                    <div class="questions">
-                        <button class="accordion">How do I sign up?</button>
-                        <div class="faq_answer">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-        
-                        <button class="accordion">How do I sign up?</button>
-                        <div class="faq_answer">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-        
-                        <button class="accordion">How do I sign up?</button>
-                        <div class="faq_answer">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-        
-                        <button class="accordion">How do I sign up?</button>
-                        <div class="faq_answer">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-        
-                        <button class="accordion">How do I sign up?</button>
-                        <div class="faq_answer">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-                    </div>
+                         <div class="hero_form mt-3">
+                             <form action="" method="post" class="w-100">
+                                 <input type="email" placeholder="Your email" class="" required>
+                                 <button type="submit" class="default_btn">Get started <i
+                                         class="fas fa-angle-right ml-2 pr-2"></i> </button>
+                             </form>
+                         </div>
+                     </div>
+
+                 </div>
+             </div>
+         </section>
+
+         <section class="why section_padding mb-3">
+             <div class="row">
+                 <div class="col-md-4">
+                     <div class="why_card">
+                         <div class="why_card_content">
+                             <div class="card_icon_holder mb-3">
+                                 <i class="ti-lock blue_text"></i>
+                             </div>
+                             <div class="section_head">
+                                 <h4>Strong Security</h4>
+                                 <hr>
+                             </div>
+                             <p class="v_align">Protection against DDoS attacks, full data encryption, compliant with
+                                 PCI DSS
+                                 standards.</p>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-4">
+                     <div class="why_card mt_alt">
+                         <div class="why_card_content">
+                             <div class="card_icon_holder mb-3">
+                                 <i class="ti-stats-up blue_text"></i>
+                             </div>
+                             <div class="section_head">
+                                 <h4>Detailed Statistics</h4>
+                                 <hr>
+                             </div>
+                             <p class="v_align">View all investment related information and data in real-time, at any
+                                 point
+                                 from any location.</p>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-4">
+                     <div class="why_card mt_alt">
+                         <div class="why_card_content">
+                             <div class="card_icon_holder mb-3">
+                                 <i class="fas fa-sync-alt blue_text"></i>
+                             </div>
+                             <div class="section_head">
+                                 <h4>Instant Connect</h4>
+                                 <hr>
+                             </div>
+                             <p class="v_align">The investment starts immediately after your payment is confirmed.</p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </section>
+
+         <section class="section_padding mt-5 mb-5 pt-3">
+             <div class="row">
+                 <div class="col-md-4">
+                     <div class="number_holder v_align">
+                         <h2 class="blue_text">$1M+</h2>
+                         <p>Invested</p>
+                     </div>
+                 </div>
+                 <div class="col-md-4">
+                     <div class="number_holder v_align">
+                         <h2 class="blue_text">52</h2>
+                         <p>Countries</p>
+                     </div>
+                 </div>
+                 <div class="col-md-4">
+                     <div class="number_holder v_align">
+                         <h2 class="blue_text">4K+</h2>
+                         <p>Members</p>
+                     </div>
+                 </div>
+             </div>
+         </section>
+
+         <section class="section_padding mt-5">
+             <div class="row">
+                 <div class="col-md-6">
+                     <div class="currency_text_holder">
+                         <div class="">
+                             <h1>Over 10+ </br> Supported Coins</h1>
+                             <p class="pt-2">Our advanced investment software, managed by a highly experienced team of
+                                 experts ensure
+                                 investment with us is always profitable. Our configuration allows us to swap between
+                                 cryptocurrencies that are currently profitable.
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-6">
+                     <div class="currency_img_holder">
+                         <img src="assets/images/currency.png" class="w-100" alt="">
+                     </div>
+                 </div>
+             </div>
+         </section>
+
+         <section class="how mt-5">
+             <div class="section_padding">
+                 <div class="row">
+                     <div class="col-md-6">
+                         <div class="vid_holder">
+                             <iframe width="545" height="400" src="https://www.youtube.com/embed/6Gu2QMTAkEU"
+                                 frameborder="0"
+                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                 allowfullscreen>
+                             </iframe>
+                         </div>
+
+                     </div>
+                     <div class="col-md-6">
+                         <div class="how_text_holder mt-3">
+                             <div class="">
+                                 <div class="how_text">
+                                     <i class="fas fa-wallet pr-2"></i>
+                                     <div class="">
+                                         <h4>Create an Account</h4>
+                                         <p>Have an account with us already? Skip this step or</p>
+                                         <a href="signup.html">Create an account here</a>
+                                     </div>
+
+                                 </div>
+                                 <div class="how_text mt-3">
+                                     <i class="fas fa-certificate pr-2"></i>
+                                     <div class="">
+                                         <h4>Purchase a contract</h4>
+                                         <p>Sign into your account and purchase a contract plan or</p>
+                                         <a href="signup.html">Click here to buy a contract</a>
+                                     </div>
+                                 </div>
+                                 <div class="how_text mt-3">
+                                     <i class="far fa-chart-bar pr-2"></i>
+                                     <div class="">
+                                         <h4>Start Earning</h4>
+                                         <p>Now that you have an active contract running just sit back</p>
+                                         <a href="login.html">and watch your earnings grow</a>
+                                     </div>
+                                 </div>
+                             </div>
+
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </section>
+
+         <section class="section_padding mt-5 pt-5 pb-5">
+             <div class="row">
+                 <div class="col-md-4">
+                     <div class="contract_card_holder">
+                         <div class="conract_card">
+                             <p class="v_align">Minimum Contract Amount</p>
+                             <h1 class="mt-2">$1000 USD</h1>
+                             <p>Starting from</p>
+                             <h1>1.3% per day</h1>
+                             <p>Expiry: 4 Month Contract Duration</p>
+
+                             <div class="btn_holder mt-4">
+                                 <a href="#" class="default_btn">Start Investment now <i
+                                         class="fas fa-angle-right ml-2 pr-2"></i>
+                                 </a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-8">
+                     <div class="contract_info_holder">
+                         <div class="contract_info">
+                             <h1>Purchase a</br>
+                                 Contract
+                             </h1>
+                             <p class="mt-2">Enurtaglobal.ng is one of the leading Cryptocurrrency investment platforms,
+                                 offering good ROI for its members. Our community is growing by the day, so join now and
+                                 start earning.
+                             </p>
+                             <p class="mt-2">We have been in business for close to two years now and processed more than
+                                 3,000 transactions. Our member reports continue to speak for us, join us today and
+                                 start
+                                 making profits today.
+                             </p>
+
+                             <div class="btn_holder mt-4">
+                                 <a href="signup.html" class="default_btn_alt">Get started</a>
+
+                             </div>
+
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </section>
+
+         <section class="referral_plan mt-5 mb-5 pt-5 pb-5">
+             <div class="section_padding">
+                 <div class="row">
+                     <div class="col-md-6">
+                         <div class="ref_text_holder">
+                             <h2>Attractive
+                                 Referral Plan
+                             </h2>
+                             <p class="mt-2">
+                                 Our referral program is developed to provide each member with the maximum possible
+                                 passive income. The amount of income depends only on your activity.<br>
+                                 You earn not just when you invest with us. Invite a friend, who will invest with us and
+                                 you get a one-time return on their investment. Help your friend to help you.
+                             </p>
+                             <ul>
+                                 <li>5% on every referral.</li>
+                                 <li>Without Conditions.</li>
+                                 <li>Instant Payout.</li>
+                             </ul>
+
+                             <div class="btn_holder mt-4">
+                                 <a href="signup.html" class="default_btn_alt">Get my Referral link</a>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-md-6">
+                         <div class="ref_img_holder">
+                             <img src="assets/images/ref_plan.png" class="w-100" alt="">
+                         </div>
+                     </div>
+
+                 </div>
+             </div>
+         </section>
+
+         <section class="pt-5 pb-4 mt-5 faq">
+             <div class="section_padding">
+                 <h2>FAQ</h2>
+                 <p>Some of the questions you would like to ask</p>
+                 <div class="faq_holder mt-3">
+                     <div class="faq_content">
+                         <div class="questions">
+                             <button class="accordion">How do I sign up?</button>
+                             <div class="faq_answer">
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                     incididunt ut
+                                     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                     ullamco
+                                     laboris nisi ut aliquip ex ea commodo consequat.</p>
+                             </div>
+
+                             <button class="accordion">How do I sign up?</button>
+                             <div class="faq_answer">
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                     incididunt ut
+                                     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                     ullamco
+                                     laboris nisi ut aliquip ex ea commodo consequat.</p>
+                             </div>
+
+                             <button class="accordion">How do I sign up?</button>
+                             <div class="faq_answer">
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                     incididunt ut
+                                     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                     ullamco
+                                     laboris nisi ut aliquip ex ea commodo consequat.</p>
+                             </div>
+
+                             <button class="accordion">How do I sign up?</button>
+                             <div class="faq_answer">
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                     incididunt ut
+                                     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                     ullamco
+                                     laboris nisi ut aliquip ex ea commodo consequat.</p>
+                             </div>
+
+                             <button class="accordion">How do I sign up?</button>
+                             <div class="faq_answer">
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                     incididunt ut
+                                     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                     ullamco
+                                     laboris nisi ut aliquip ex ea commodo consequat.</p>
+                             </div>
+                         </div>
+
+                     </div>
+                 </div>
+         </section>
+
+         <section class="section_padding mt-5">
+             <h2>Our contracts</h2>
+             <div class="owl-carousel owl-theme owl-loaded">
+                 <div class="owl-stage-outer">
+                     <div class="owl-stage">
+                         <div class="owl-item">
+                             <div class="contract_card">
+                                 <div class="contract_card_inner">
+                                     <h2 class="v_align blue_text">STREAM 1</h2>
+                                     <h3 class="v_align">$1,000 - $29,999</h3>
+                                     <h3 class="v_align">1.3% Daily</h3>
+
+                                     <div class="mt-3">
+                                         <div class="benefit_item">
+                                             <i class="fas fa-check blue_text"></i>
+                                             <span>5% Referral Bonus</span>
+                                         </div>
+                                         <div class="benefit_item">
+                                             <i class="fas fa-check blue_text"></i>
+                                             <span>Weekly Payout</span>
+                                         </div>
+                                         <div class="benefit_item">
+                                             <i class="fas fa-check blue_text"></i>
+                                             <span>4 Month Contract Duration</span>
+                                         </div>
+                                     </div>
+                                     <div class="btn_holder mt-4 v_align">
+                                         <a href="signup.html" class="default_btn w-100">Purchase contract</a>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="owl-item">
+                             <div class="contract_card">
+                                 <div class="contract_card_inner">
+                                     <h2 class="v_align blue_text">STREAM 2</h2>
+                                     <h3 class="v_align">$30,000 - $99,999</h3>
+                                     <h3 class="v_align pb-2">1.5% Daily</h3>
+                                     <div class="v_align">
+                                         <span class="rec mt-4">Recommended</span>
+                                     </div>
+
+                                     <div class="mt-3">
+                                         <div class="benefit_item">
+                                             <i class="fas fa-check blue_text"></i>
+                                             <span>5% Referral Bonus</span>
+                                         </div>
+                                         <div class="benefit_item">
+                                             <i class="fas fa-check blue_text"></i>
+                                             <span>Weekly Payout</span>
+                                         </div>
+                                         <div class="benefit_item">
+                                             <i class="fas fa-check blue_text"></i>
+                                             <span>6 Month Contract Duration</span>
+                                         </div>
+                                     </div>
+                                     <div class="btn_holder mt-4 v_align">
+                                         <a href="signup.html" class="default_btn w-100">Purchase contract</a>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="owl-item">
+                             <div class="contract_card">
+                                 <div class="contract_card_inner">
+                                     <h2 class="v_align blue_text">STREAM 3</h2>
+                                     <h3 class="v_align">$100,000 - $499,999</h3>
+                                     <h3 class="v_align pb-2">1.35% Daily</h3>
+                                     <div class="v_align">
+                                         <span class="rec mt-4">Recommended</span>
+                                     </div>
+
+                                     <div class="mt-3">
+                                         <div class="benefit_item">
+                                             <i class="fas fa-check blue_text"></i>
+                                             <span>5% Referral Bonus</span>
+                                         </div>
+                                         <div class="benefit_item">
+                                             <i class="fas fa-check blue_text"></i>
+                                             <span>Weekly Payout</span>
+                                         </div>
+                                         <div class="benefit_item">
+                                             <i class="fas fa-check blue_text"></i>
+                                             <span>8 Month Contract Duration</span>
+                                         </div>
+                                     </div>
+                                     <div class="btn_holder mt-4 v_align">
+                                         <a href="signup.html" class="default_btn w-100">Purchase contract</a>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="owl-item">
+                             <div class="contract_card">
+                                 <div class="contract_card_inner">
+                                     <h2 class="v_align blue_text">STREAM 4</h2>
+                                     <h3 class="v_align">$500,000 - $2,000,000</h3>
+                                     <h3 class="v_align">1% Daily</h3>
+
+                                     <div class="mt-3">
+                                         <div class="benefit_item">
+                                             <i class="fas fa-check blue_text"></i>
+                                             <span>5% Referral Bonus</span>
+                                         </div>
+                                         <div class="benefit_item">
+                                             <i class="fas fa-check blue_text"></i>
+                                             <span>Weekly Payout</span>
+                                         </div>
+                                         <div class="benefit_item">
+                                             <i class="fas fa-check blue_text"></i>
+                                             <span>Lifetime Contract</span>
+                                         </div>
+                                     </div>
+                                     <div class="btn_holder mt-4 v_align">
+                                         <a href="signup.html" class="default_btn w-100">Purchase contract</a>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
                
-            </div>
-        </div>
-    </section>
+             </div>
+         </section>
 
-    <section class="section_padding mt-5">
-        <h2>Our contracts</h2>
+         <section class="section_padding mt-5 pt-5 pb-4">
+             <div class="row">
+                 <div class="col-md-6">
+                     <div class="contact_text_holder">
+                         <div class="w-100">
+                             <h3 class="blue_text">Do you have any questions?</h3>
+                             <p>
+                                 Please contact us directly by mail or using the online chat app available at the bottom
+                                 left
+                                 of the members portal. You can also view our FAQ section which may help answer your
+                                 question.
+                             </p>
+                             <div class="contact_info_holder">
+                                 <div class="contact_info blue_text mt-2">
+                                     <i class="fas fa-envelope pr-2"></i>
+                                     <span>support@Enurtaglobal.com</span>
+                                 </div>
+                                 <div class="contact_info blue_text mt-2">
+                                     <i class="fas fa-phone pr-2"></i>
+                                     <span> +1 315 236 4909</span>
+                                 </div>
+                                 <div class="contact_info blue_text mt-2">
+                                     <i class="fas fa-map-marker-alt pr-2"></i>
+                                     <span>Sixon Investments LTD (E. Halldorsson ehf.), Ásklifi 6, 340 Stykkishólmur,
+                                         Iceland.</span>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-6">
+                     <div class="contact_form_holder">
+                         <form action="" method="post">
+                             <form action="" method="post">
+                                 <div class="input_holder">
+                                     <input type="text" placeholder="Full Name" required>
+                                 </div>
+                                 <div class="input_holder mt-3">
+                                     <input type="email" placeholder="Your email" required>
+                                 </div>
+                                 <div class="input_holder mt-3">
+                                     <input type="text" placeholder="Subject" required>
+                                 </div>
+                                 <div class="input_holder mt-3">
+                                     <textarea name="" id="" cols="100" rows="6" placeholder="Message"
+                                         required></textarea>
+                                 </div>
 
-        <div class="row">
-            <div class="col-md-3">
-                <div class="contract_card_holder">
-                    <div class="contract_card">
-                        <h3 class="v_align">STREAM 1</h3>
-                        <h3 class="v_align">$1,000 - $29,999</h3>
-                        <h4 class="v_align">1.3% Daily</h4>
 
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3"></div>
-            <div class="col-md-3"></div>
-            <div class="col-md-3"></div>
-        </div>
-    </section>
-</body>
-<script src="assets/libs/jquery/jquery.min.js"></script>
-<script src="js/app.js"></script>
+                                 <div class="btn_holder mt-5">
+                                     <button type="submit" class="default_btn w-100">Contact Us</button>
+                                 </div>
+                             </form>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </section>
 
-</html>
+         <footer class="pt-5">
+             <div class="section_padding">
+                 <div class="row">
+                     <div class="col-md-4">
+                         <div class="footer_socials_holder">
+                             <h4>Follow us online</h4>
+                             <div class="social_icons mt-3">
+                                 <a href="#">
+                                     <i class="fab fa-facebook-f blue_text"></i>
+                                 </a>
+
+                                 <a href="#">
+                                     <i class="fas fa-envelope blue_text"></i>
+                                 </a>
+
+                                 <a href="#">
+                                     <i class="fab fa-telegram-plane blue_text"></i>
+                                 </a>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-md-4">
+                         <div class="accepted pb-4">
+                             <h4>We accept:</h4>
+                             <div class="accepted_img_holder">
+                                 <img src="assets/images/accepted.png" class="w-100" alt="">
+                             </div>
+
+                         </div>
+
+                     </div>
+                     <div class="col-md-4">
+                         <h4>Quick links</h4>
+                         <a href="#">
+                             <p>Home</p>
+                         </a>
+                         <a href="#">
+                             <p>About us</p>
+                         </a>
+                         <a href="#">
+                             <p>Terms & Conditions</p>
+                         </a>
+                     </div>
+                 </div>
+                 <p class="v_align copy">Copyright © Enurtaglobal Investments LTD 2018 - 2020</p>
+             </div>
+         </footer>
+     </body>
+     <script src="assets/libs/jquery/jquery.min.js"></script>
+     <script src="assets/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+     <script src="js/app.js"></script>
+
+     </html>
